@@ -25,6 +25,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-font",
+     
+        [
+          "expo-location",
+          {
+            "locationAlwaysAndWhenInUsePermission": "Allow native-practice to use your location."
+          }
+        ]
+      
+    ]
   }
 }
